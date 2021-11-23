@@ -3,7 +3,6 @@ let cases = document.getElementsByClassName("case");
 let joueur1 = [];
 let joueur2 = [];
 let winner = "";
-let reset = document.getElementById("reset");
 function win() {
     for (let i = 0; i < 9; i++) {
         cases[i].style.backgroundColor = "none";
