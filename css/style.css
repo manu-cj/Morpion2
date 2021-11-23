@@ -29,7 +29,7 @@ h1 {
     width: 30%;
     height: 700px;
     background: #defff9;
-    background: radial-gradient(circle farthest-corner at center center, #bbf6f0 0%, #91fce3 40%, #1ecbb2 80%);
+    background: radial-gradient(circle farthest-corner at center center, #01c0ab 0%, #57f3cb 40%, #95f1e0 80%);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -65,7 +65,7 @@ h1 {
 .case:hover {
     background-color: #1d7a9d;
     color: #00ff77;
-    box-shadow: 1px 8px 23px 6px rgba(70,153,181,1);
+    box-shadow: 1px 8px 23px 6px rgb(37, 187, 238);
     cursor: pointer;
 }
 
@@ -98,7 +98,7 @@ a {
 
 
 
-@media screen and (min-width: 320px){
+@media screen and (max-width: 320px){
 
     .bloc {
         width: 80%;
@@ -129,7 +129,7 @@ a {
     }
 }
 
-@media screen and (min-width: 500px){
+@media screen and (max-width: 700px){
 
 
     .bloc {
