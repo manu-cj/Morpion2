@@ -8,14 +8,36 @@ body {
     width: 100%;
     text-align: center;
     background-color: #183742;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
 }
 
 h1 {
     margin-bottom: 20px;
-    color: #aae3d6;
+    color: #03694d;
     font-size: 3rem;
 }
 
+.aside {
+    height: 100px;
+}
+
+.bloc {
+    width: 30%;
+    height: 700px;
+    background: #defff9;
+    background: radial-gradient(circle farthest-corner at center center, #bbf6f0 0%, #91fce3 40%, #1ecbb2 80%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    border: inset 5px #91eeee;
+}
 
 #jeu {
     display: flex;
@@ -25,7 +47,7 @@ h1 {
     align-content: space-between;
     width: 450px;
     margin: auto;
-
+    background-color: #3097b7;
 }
 
 .case {
@@ -49,12 +71,13 @@ h1 {
 
 p {
     margin-top: 30px;
-    color: #aae3d6;
+    color: #016c6c;
     font-size: 1rem;
 }
 
 button {
     margin-top: 30px;
+    margin-bottom: 30px;
     width: auto;
     height: 40px;
     border-radius: 10px;
@@ -111,6 +134,7 @@ a {
         align-content: space-between;
         width: 300px;
         margin: auto;
+        background-color: #3097b7;
 
     }
 
