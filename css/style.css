@@ -100,6 +100,11 @@ a {
 
 @media screen and (min-width: 320px){
 
+    .bloc {
+        width: 80%;
+        height: 500px;
+    }
+
     #jeu {
         display: flex;
         flex-direction: row;
@@ -125,6 +130,12 @@ a {
 }
 
 @media screen and (min-width: 500px){
+
+
+    .bloc {
+        width: 95%;
+        height: 700px;
+    }
 
     #jeu {
         display: flex;
