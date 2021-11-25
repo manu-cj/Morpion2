@@ -15,22 +15,27 @@ function win() {
 }
 
 
+function egaliter() {
+    for (let i=0; i < 8; i++){
+        alert("egalité");
+    }
+}
 
-let tour1 = true;
-let tour2 = false;
 
 
 
-for (let i = 0; i < 9; i++) {
+for (let i = 0; i < cases.length; i++) {
     cases[i].addEventListener("mouseup", function (event) {
         switch (event.button) {
             case 0:
                 if (cases[i].innerHTML === "") {
                     cases[i].innerHTML = "X";
                     joueur1.push(i);
-                    console.log(i)
+                    console.log(i);
                 }
-
+                if (i===cases.length) {
+                    egaliter()
+                }
 
 
                 if (joueur1.includes(0)){
