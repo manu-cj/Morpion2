@@ -16,7 +16,8 @@ function win() {
 
 
 
-
+let tour1 = true;
+let tour2 = false;
 
 
 
@@ -24,9 +25,13 @@ for (let i = 0; i < 9; i++) {
     cases[i].addEventListener("mouseup", function (event) {
         switch (event.button) {
             case 0:
-                cases[i].innerHTML = "X";
-                joueur1.push(i);
-                console.log(i)
+                if (cases[i].innerHTML === "") {
+                    cases[i].innerHTML = "X";
+                    joueur1.push(i);
+                    console.log(i)
+                }
+
+
 
                 if (joueur1.includes(0)){
                     if (joueur1.includes(1)){
@@ -97,8 +102,12 @@ for (let i = 0; i < 9; i++) {
 
 
             case 2:
-                cases[i].innerHTML = "O";
-                joueur2.push(i);
+                if (cases[i].innerHTML === "") {
+                    cases[i].innerHTML = "O";
+                    joueur2.push(i);
+                }
+
+
                 if (joueur2.includes(0)){
                     if (joueur2.includes(1)){
                         if (joueur2.includes(2)){
