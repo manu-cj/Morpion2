@@ -127,6 +127,7 @@ for (let i = 0; i < cases.length; i++) {
                         }
                     }
                 }
+
                 if (joueur2.includes(3)){
                     if (joueur2.includes(4)){
                         if (joueur2.includes(5)){
