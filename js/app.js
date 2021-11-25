@@ -33,9 +33,7 @@ for (let i = 0; i < cases.length; i++) {
                     joueur1.push(i);
                     console.log(i);
                 }
-                if (i===cases.length) {
-                    egaliter()
-                }
+
 
 
                 if (joueur1.includes(0)){
@@ -181,6 +179,10 @@ for (let i = 0; i < cases.length; i++) {
 
         }
     })
+    console.log(cases.length)
+    if (i===cases.length) {
+        egaliter()
+    }
 }
 
 
