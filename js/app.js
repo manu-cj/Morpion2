@@ -142,7 +142,8 @@ for (let i = 0; i < cases.length; i++) {
                             win();
                         }
                     }
-                }if (joueur2.includes(1)){
+                }
+                if (joueur2.includes(1)){
                 if (joueur2.includes(4)){
                     if (joueur2.includes(7)){
                         winner = "O";
